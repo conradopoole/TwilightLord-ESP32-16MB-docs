@@ -1,4 +1,4 @@
-## ESP32 Dev Board with latest WROOM-32E module, USB Type-C, 800mA LDO, 8MB flash and PTC fused.
+## ESP32 Dev Board with latest WROOM-32E module, USB Type-C, 800mA LDO, 16MB flash and PTC fused.
 
 After receiving too many boards that were DOA (dead-on-arrival) or that came with cheap power regulators causing power resets, I decided to design my own dev board.
 
@@ -21,7 +21,7 @@ TwilightLord-ESP32 is a custom ESP32 Dev board based on the D1 Mini32 but with m
 
 Here are some files that might help you configure the module in your environment:
 
- - Sample partitions file for the 8MB Flash, with 2 OTA Slots, EEPROM and SPIFF (copy or [download](partitions_16M.csv)) 
+ - Sample partitions file for the 16MB Flash, with 2 OTA Slots, EEPROM and SPIFF (copy or [download](partitions_16M.csv)) 
 
         ```csv
         # Name,   Type, SubType, Offset,  Size, Flags
