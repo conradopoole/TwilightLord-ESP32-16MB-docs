@@ -98,7 +98,7 @@ Here are some files that might help you configure the module in your environment
 Bottom View
 
 |      |      |      |      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| :--: | :--: | ---- | ---- | ---- | ---- | :--: | :--: |
 | GND  | TXD  |      |      |      |      | RST  | GND  |
 | IO27 | RXD  |      |      |      |      | SVP  | GND  |
 | IO25 | IO22 |      |      |      |      | IO26 | SVN  |
@@ -116,7 +116,7 @@ Bottom View
 Top View (component side)
 
 |      |      |      |      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| :--: | :--: | ---- | ---- | ---- | ---- | :--: | :--: |
 | GND  | RST  |      |      |      |      | TXD  | GND  |
 | GND  | SVP  |      |      |      |      | RXD  | IO27 |
 | SVN  | IO26 |      |      |      |      | IO22 | IO25 |
