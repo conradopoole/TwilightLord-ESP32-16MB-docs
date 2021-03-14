@@ -4,8 +4,9 @@ After receiving too many boards that were DOA (dead-on-arrival) or that came wit
 
 ### What is it?
 
-TwilightLord-ESP32 is a custom ESP32 Dev board based on the D1 Mini32 but with many updates to it:
- - ESP32-WROOM-32E which is the latest revision that includes the ESP32-D0WD-V3 chip (link) (latest on the ECO line with improved power consumption and stability over the V0 that most ESP32 dev boards include)
+TwilightLord-ESP32 is a custom ESP32 Dev board based on the D1 Mini32 but with many updates to it, this means it is a drop-in replacement for any design using a D1 Mini32 (same dimensions), which in term is also pin compatible with the original D1 Mini (ESP8266 based):
+
+- ESP32-WROOM-32E which is the latest revision that includes the ESP32-D0WD-V3 chip (link) (latest on the ECO line with improved power consumption and stability over the V0 that most ESP32 dev boards include)
 - 16MB flash, double what most dev boards include. Plenty of space for complex Arduino projects, with OTA slots, larger SPIFFs partitions for your data (store your HTMLs in flash and not as string literals consuming memory), etc.
 - USB Type-C connector for data and power
 - ESD USB protection. Most D1 Mini clones lack of electrostatic discharge protection.
