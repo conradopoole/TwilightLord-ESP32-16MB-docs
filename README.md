@@ -93,39 +93,38 @@ Here are some files that might help you configure the module in your environment
 
 ### Pinout
 
-
-  
-  
 Bottom View
 
-|      |      |      |      |      |      |      |      |
-| :--: | :--: | ---- | ---- | ---- | ---- | :--: | :--: |
-| GND  | TXD  |      |      |      |      | RST  | GND  |
-| IO27 | RXD  |      |      |      |      | SVP  | GND* |
-| IO25 | IO22 |      |      |      |      | IO26 | SVN  |
-| IO32 | IO21 |      |      |      |      | IO18 | IO35 |
-| IO12 | IO17 |      |      |      |      | IO19 | IO33 |
-| IO4  | IO16 |      |      |      |      | IO23 | IO34 |
-| IO0  | GND  |      |      |      |      | IO5  | IO14 |
-| IO2  | 5v0  |      |      |      |      | 3v3  | 3v3* |
-| NC   | IO15 |      |      |      |      | IO13 | NC   |
+|      |      |      |      | PCB ANTENNA |      |      |      |      |
+| :--: | :--: | ---- | ---- | ----------- | ---- | ---- | :--: | :--: |
+| GND  | TXD  |      |      |             |      |      | RST  | GND  |
+| IO27 | RXD  |      |      |             |      |      | SVP  | GND* |
+| IO25 | IO22 |      |      |             |      |      | IO26 | SVN  |
+| IO32 | IO21 |      |      |             |      |      | IO18 | IO35 |
+| IO12 | IO17 |      |      |             |      |      | IO19 | IO33 |
+| IO4  | IO16 |      |      |             |      |      | IO23 | IO34 |
+| IO0  | GND  |      |      |             |      |      | IO5  | IO14 |
+| IO2  | 5v0  |      |      |             |      |      | 3v3  | 3v3* |
+| NC   | IO15 |      |      |             |      |      | IO13 | NC   |
 
 __*__ Pins are NC (Not Connected) on D1 Mini32 boards. Just to be safe , it is recommended to not solder them if you are plugging this module to a board designed for a D1 Mini32, if you do just make sure on those boards these pins are NC.
+
+-----------------------------------------------------------------------
 
 
 Top View (component side)
 
-|      |      |      |      |      |      |      |      |
-| :--: | :--: | ---- | ---- | ---- | ---- | :--: | :--: |
-| GND  | RST  |      |      |      |      | TXD  | GND  |
-| GND* | SVP  |      |      |      |      | RXD  | IO27 |
-| SVN  | IO26 |      |      |      |      | IO22 | IO25 |
-| IO35 | IO18 |      |      |      |      | IO21 | IO32 |
-| IO33 | IO19 |      |      |      |      | IO17 | IO12 |
-| IO34 | IO23 |      |      |      |      | IO16 | IO4  |
-| IO14 | IO5  |      |      |      |      | GND  | IO0  |
-| 3v3* | 3v3  |      |      |      |      | 5v0  | IO2  |
-| NC   | IO13 |      |      |      |      | IO15 | NC   |
+|      |      |      |      | PCB ANTENNA |      |      |      |      |
+| :--: | :--: | ---- | ---- | ----------- | ---- | ---- | :--: | :--: |
+| GND  | RST  |      |      |             |      |      | TXD  | GND  |
+| GND* | SVP  |      |      |             |      |      | RXD  | IO27 |
+| SVN  | IO26 |      |      |             |      |      | IO22 | IO25 |
+| IO35 | IO18 |      |      |             |      |      | IO21 | IO32 |
+| IO33 | IO19 |      |      |             |      |      | IO17 | IO12 |
+| IO34 | IO23 |      |      |             |      |      | IO16 | IO4  |
+| IO14 | IO5  |      |      |             |      |      | GND  | IO0  |
+| 3v3* | 3v3  |      |      |             |      |      | 5v0  | IO2  |
+| NC   | IO13 |      |      |             |      |      | IO15 | NC   |
 
 __*__ Pins are NC (Not Connected) on D1 Mini32 boards. Just to be safe , it is recommended to not solder them if you are plugging this module to a board designed for a D1 Mini32, if you do just make sure on those boards these pins are NC.
 
