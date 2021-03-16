@@ -32,15 +32,15 @@ Here are some files that might help you configure the module in your environment
 
  - Sample partitions file for the 16MB Flash, with 2 OTA Slots, EEPROM and SPIFF (copy or [download](partitions_16M.csv)) 
 
-        ```csv
-        # Name,   Type, SubType, Offset,  Size, Flags
-        nvs,      data, nvs,     0x9000,  20K,
-        otadata,  data, ota,     0xe000,  8K,
-        app0,     app,  ota_0,   0x10000, 6M,
-        app1,     app,  ota_1,          , 6M,
-        eeprom,   data, 153,            , 4K,
-        spiffs,   data, spiffs,         , 4028K,
-        ```
+    ```csv
+    # Name,   Type, SubType, Offset,  Size, Flags
+    nvs,      data, nvs,     0x9000,  20K,
+    otadata,  data, ota,     0xe000,  8K,
+    app0,     app,  ota_0,   0x10000, 6M,
+    app1,     app,  ota_1,          , 6M,
+    eeprom,   data, 153,            , 4K,
+    spiffs,   data, spiffs,         , 4028K,
+    ```
 
 
  - Board definition file for PlatformIO. Copy it to your  *\<PROFILE\>/*.platformio/boards folder (copy or [download](twilightlord-esp32-16MB.json))
