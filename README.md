@@ -34,7 +34,7 @@ TwilightLord-ESP32 is a custom ESP32 Dev board based on the D1 Mini32 but with m
 
 Here are some files that might help you configure the module in your environment:
 
- - Sample partitions file for the 16MB Flash, with 2 OTA Slots, EEPROM and SPIFF (copy or [download](partitions_16M.csv)) 
+ - Sample partitions file for the 8MB Flash, with 2 OTA Slots, EEPROM and SPIFF. Copy it to the root folder of your PlatformIO project (copy or [download](partitions_16M.csv)) 
 
     ```csv
     # Name,   Type, SubType, Offset,  Size, Flags
@@ -47,7 +47,7 @@ Here are some files that might help you configure the module in your environment
     ```
 
 
- - Board definition file for PlatformIO. Copy it to your  *\<PROFILE\>/*.platformio/boards folder (copy or [download](twilightlord-esp32-16MB.json))
+ - Board definition file for PlatformIO. Copy it to a to folder named *boards* in the root folder of your PlatformIO project or your  *\<PROFILE\>/*.platformio/boards folder (copy or [download](twilightlord-esp32-16MB.json))
 
     ```json
     {
