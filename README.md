@@ -27,8 +27,8 @@ TwilightLord-ESP32 is a custom ESP32 Dev board based on the D1 Mini32 but with m
 - Plenty of capacitors added to guarantee stable power delivery to the ESP32.
 - D1 Mini and Mini32 pin compatible. 9-pin rows used instead of 10-pin ones since WROOM-32E drops a few pins (connected to internal flash) so no need for 20 pins any longer. Skip the first pin (next to USB connector) if plugging it to a 10-pin header.
 - CP2104 USB-to-serial (USB to UART) controller with up to 2Mbits Baud rate. Write the WROOM flash in just over 10 seconds.
-- BOOT and RESET buttons. Most compact form factor dev boards only come with RESET button, not allowing you to enter bootloader mode by just pressing buttons.
-- Autoprogram circuit included. Tools like esptool and ESPHome-Flasher can restart the ESP32 in bootloader mode for programming.
+- BOOT and RESET buttons. Most compact form factor dev boards only come with RESET button, not allowing you to enter bootloader download mode by just pressing buttons.
+- Autoprogram circuit included. Tools like esptool and ESPHome-Flasher can restart the ESP32 in bootloader download mode for programming.
 
 ### Useful environment configuration files
 
